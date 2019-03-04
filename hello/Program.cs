@@ -18,11 +18,15 @@ namespace Hello
             {
                 System.Console.WriteLine("Hello World! command line parameter does not meet the requirement!");
             }
+            //ConsoleColor bg=Console.BackgroundColor;
+            //ConsoleColor fg=Console.ForegroundColor;
             Console.BackgroundColor = ConsoleColor.Green;
             System.Console.WriteLine("Hello World!");
             System.Console.WriteLine("Hello World!");
             Console.ForegroundColor = ConsoleColor.Yellow;
             System.Console.WriteLine("Hello World!");
+            //Console.BackgroundColor=bg;
+            //Console.ForegroundColor=fg;
             Console.ResetColor();
         }
     }
